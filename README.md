@@ -17,9 +17,8 @@ Aplikasi web ini dikembangkan sebagai bagian dari **tes seleksi untuk melamar di
     * [2.2 Instalasi](#22-instalasi)
 * [3. Penggunaan](#3-penggunaan)
 * [4. Teknologi yang Digunakan](#4-teknologi-yang-digunakan)
-* [5. Kontribusi](#5-kontribusi)
-* [6. Lisensi](#6-lisensi)
-* [7. Kontak](#7-kontak)
+* [5. Lisensi](#5-lisensi)
+* [6. Kontak](#6-kontak)
 
 ---
 

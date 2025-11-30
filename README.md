@@ -126,6 +126,6 @@ Proyek ini dikembangkan oleh:
 **Muhammad Naafi'ul Razzaq Witjaksono**
 * **Email:** naafiulrazzaq@gmail.com
 * **LinkedIn:** www.linkedin.com/in/muhammad-naafi-ul-razzaq-witjaksono-12771729b
-* **GitHub:** [@NaafiulRazzaqW](https://github.com/UsernameGitHubAnda)
+* **GitHub:** [@NaafiulRazzaqW]([https://github.com/UsernameGitHubAnda](https://github.com/NaafiulRazzaqW))
 
 ---

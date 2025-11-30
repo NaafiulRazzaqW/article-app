@@ -78,3 +78,54 @@ Pastikan Anda telah menginstal *software* berikut di mesin Anda:
     ```
 
 Aplikasi sekarang akan berjalan pada `http://localhost:[PORT_NUMBER]` (biasanya 8000).
+
+---
+## 3. Penggunaan (Usage)
+
+Article Web App dirancang untuk menyediakan alur kerja manajemen artikel yang sederhana.
+
+### 3.1 Alur Kerja Dasar
+
+Setelah aplikasi berhasil dijalankan, ikuti alur ini untuk memulai:
+
+1.  **Akses Aplikasi:** Buka peramban Anda dan kunjungi alamat `http://127.0.0.1:8000`.
+2.  **Login/Register:**
+    * Jika belum memiliki akun, daftar sebagai pengguna baru.
+    * *Anda tidak dapat mengakses list artikel jika belum login (Sesuai requirement test)*
+3.  **Halaman Utama (List Artikel):** Anda akan melihat daftar semua artikel yang telah dipublikasikan. Jika tidak ada maka akan ada pemberitahuan terkait pembuatan artikel
+4.  **Membuat Artikel Baru:**
+    * klik Tombol "Create Article".
+    * Isi Judul, Image, dan Deksripsi.
+    * Lalu klik tombol "Create Artikel".
+5.  **Mengelola Artikel:**
+    * Pengguna yang terautentikasi dapat Mengedit atau Menghapus artikel mereka.
+    * Mereka dapat mengubah dan mengahpus melalui tombol yang ada, untuk hapus tekan "edit" terlebih dahulu.
+
+
+## 4. Teknologi yang Digunakan
+
+Article Web App dibangun menggunakan teknologi inti berikut:
+
+* **Backend Framework:** [Laravel v12] - Framework PHP untuk arsitektur backend yang kuat.
+* **Database:** [MySQL] - Sistem manajemen database.
+* **Frontend:** [Blade] - Layout HTML bawaan Laravel.
+* **Styling:** [Tailwind CSS] - Untuk desain responsif dan tata letak.
+* **Package Manager:** [Composer] dan [NPM/Yarn].
+
+---
+## 6. Lisensi
+
+Proyek ini berada di bawah Lisensi MIT (Massachusetts Institute of Technology).
+
+Anda bebas menggunakan, memodifikasi, dan mendistribusikan kode ini, dengan syarat menyertakan pemberitahuan hak cipta dan izin.
+
+## 7. Kontak / Penulis
+
+Proyek ini dikembangkan oleh:
+
+**Muhammad Naafi'ul Razzaq Witjaksono**
+* **Email:** naafiulrazzaq@gmail.com
+* **LinkedIn:** www.linkedin.com/in/muhammad-naafi-ul-razzaq-witjaksono-12771729b
+* **GitHub:** [@NaafiulRazzaqW](https://github.com/UsernameGitHubAnda)
+
+---

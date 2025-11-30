@@ -36,3 +36,45 @@ Pastikan Anda telah menginstal *software* berikut di mesin Anda:
 * **[Contoh: Composer]** (Untuk mengelola dependensi PHP)
 * **[Contoh: MySQL/PostgreSQL]** (Database)
 
+### 2.2 Instalasi
+
+1.  **Kloning Repositori:**
+    ```bash
+    git clone [https://github.com/user-anda/article-web-app.git](https://github.com/user-anda/article-web-app.git)
+    cd article-web-app
+    ```
+
+2.  **Instal Dependensi:**
+    *Untuk Frontend:*
+    ```bash
+    npm install
+    # atau yarn install
+    ```
+    *Untuk Backend:*
+    ```bash
+    composer install
+    ```
+
+3.  **Konfigurasi Lingkungan:**
+    * Buat file `.env` dengan menduplikasi `.env.example`:
+        ```bash
+        cp .env.example .env
+        ```
+    * Edit file `.env` dan atur kredensial database Anda.
+    * *Jika menggunakan framework seperti Laravel/CodeIgniter/dll, tambahkan perintah:*
+        ```bash
+        php artisan key:generate
+        ```
+
+4.  **Migrasi Database:**
+    * Jalankan migrasi database untuk membuat tabel:
+        ```bash
+        php artisan migrate
+        ```
+
+5.  **Jalankan Aplikasi:**
+    ```bash
+    composer run dev
+    ```
+
+Aplikasi sekarang akan berjalan pada `http://localhost:[PORT_NUMBER]` (biasanya 8000).

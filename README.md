@@ -70,8 +70,11 @@ Pastikan Anda telah menginstal *software* berikut di mesin Anda:
         ```bash
         php artisan migrate
         ```
-
-5.  **Jalankan Aplikasi:**
+5.  **Storage Link untuk Image:**
+    ```bash
+        php artisan storage:link
+    ```
+6.  **Jalankan Aplikasi:**
     ```bash
     composer run dev
     ```
